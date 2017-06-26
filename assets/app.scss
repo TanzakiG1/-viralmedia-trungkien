@@ -1,0 +1,96 @@
+body {
+  #MyModal {
+    .modal-body {
+      .row {
+        text-align: center;
+        font-weight: bold;
+        .col-sm-3 {
+          .button-form {
+            border: 2px solid darkgrey;
+            .icon {
+              background: url('http://i.imgur.com/3sYWUup.png') no-repeat;
+              background-size: 150px;
+              display: inline-block;
+              margin-top: 8px;
+            }
+
+          }
+          .icon-box-choose_file {
+            .icon {
+              width: 50px;
+              height: 58px;
+            }
+          }
+          .icon-box-image_url {
+            .icon {
+              background-position: -70px 0;
+              background-size: 200px 80px;
+              width: 42px;
+              height: 58px;
+            }
+          }
+          .icon-box-video_url {
+            .icon {
+              background-position: -125px 0;
+              background-size: 220px 80px;
+              width: 42px;
+              height: 58px;
+            }
+          }
+          .icon-box-make_meme {
+            .icon {
+              background-position: -170px 0;
+              background-size: 220px 80px;
+              width: 49px;
+              height: 58px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .container {
+    .row {
+      .col-sm-8 {
+        #list_gag {
+          /*  background-color: #c0a16b;*/
+          .gag-item {
+            max-width: 500px;
+            .media-content {
+              display: block;
+              max-width: 100%;
+              height: auto;
+              img {
+                width: 500px;
+              }
+            }
+            .count {
+              margin: 1em;
+              color: darkgrey;
+              margin-left: 0;
+              margin-right: 0;
+              a {
+                color: darkgrey;
+              }
+            }
+            hr {
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+            .action-right{
+              .btn-facebook{
+                border-radius: 5px;
+                background-color: #1179d9;
+              }
+              .btn-twitter{
+                background-color: #d51d45;
+                border-radius: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

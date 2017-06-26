@@ -59,7 +59,7 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-sm-3">
-                        <div class="button-form icon-box-choos_feile">
+                        <div class="button-form icon-box-choose_file">
                             <div class="icon"></div>
                             <div class="icon-box-text">Choose File</div>
                         </div>
